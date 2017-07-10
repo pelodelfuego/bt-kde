@@ -24,7 +24,7 @@ Performing a KDE is actually equivalent to convolve the distribution by the kern
 When points of the distribution are close enough regarding to the kernel bandwidth,<br>
 We can compute only one ponderated kernel and assume the result will be almost equal to the sum of the 2 kernels.
 
-![](https://raw.githubusercontent.com/pelodelfuego/rangesearch-box/master/img/visual_def.png)
+![](https://raw.githubusercontent.com/pelodelfuego/bt-kde/master/img/visual_def.png)
 
 * *Green:* exact curve
 * *Blue:* approximated curve
@@ -37,7 +37,7 @@ It allow to use different bandwidth on each dimensions.
 
 ## Formally speaking
 
-![](https://raw.githubusercontent.com/pelodelfuego/rangesearch-box/master/img/formal_def.gif)
+![](https://raw.githubusercontent.com/pelodelfuego/bt-kde/master/img/formal_def.gif)
 
 
 ## Conclusion
