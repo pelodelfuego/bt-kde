@@ -30,7 +30,7 @@ We can compute only one ponderated kernel and assume the result will be almost e
 * *Blue:* approximated curve
 * *Red:* absolute error
 
-**Note:** Here is a 1D example, in N dimension, the closeness of points is evaluated by an ellipse equation.<br>
+**Note:** Here is a 1D example, in N dimensions, the closeness of points is evaluated by an ellipse equation.<br>
 It allows to use different bandwidth on each dimensions.
 
 
@@ -53,6 +53,6 @@ At this cost, we dropped the perf by a factor ~20 (mode details on the demo note
 This experiment highlight the versatility of BallTree which allow bunch of application with a custom metric.
 (PS: it is awesome !)
 
-We can also note that unlike sklearn implementation,<br>
-It is possible to use different bandwidth on each dimensions.
+We can also note, it is possible to use different bandwidth on each dimensions.<br>
+
 
